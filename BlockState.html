@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/352143b91d.js" crossorigin="anonymous"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+<style>
+
+    
+    *{
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+
+    }
+    .container-firstpara{
+        display: flex;
+        background-color: black;
+        height: 30px;
+        font-family: 'Space Mono', 'monospace';
+        font-style: normal;
+        font-weight: bold;
+        padding-top: 3px;
+        color: aliceblue;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6px;
+
+
+        
+    }
+    .container-navbar{
+        
+        
+        font-family: 'Space Mono', 'monospace';
+        color: bisque;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+        
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .nav p{
+        margin-left: 10px;
+        font-size: xx-large;
+    }
+    
+    .container-navbar ul{
+        list-style-type: none;
+        display: flex;
+    }
+    
+    #one{
+        font-size: xx-large;
+    }  
+        
+    
+     .container-navbar li{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-family: sans-serif;
+        font-size: larger;
+
+     }
+     header p{
+        color:white;
+        font-family: sans-serif;
+        font-size: x-large;
+        font-weight: bold;
+
+        
+    }
+    header span{
+        color: maroon;
+        font-family: sans-serif;
+        font-size: large;
+        font-weight: bold;
+    }
+    header p,span{
+        margin-right: 2px;
+    }
+    .main-body{
+        display: flex;
+        margin: 10px;
+        
+    }
+    
+    
+    .left{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        width: 50%;
+        font-size:50px;
+        font-family: sans-serif;
+        margin-left: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .right{
+        
+        
+    }
+    #btn{
+        font-family: sans-serif;
+        color: azure;
+    }
+    button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .button {
+  background-color: #a70000;
+  
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: sans-serif;
+    }
+    
+    table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #ddd;
+
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: coral;}
+
+.divlex{
+    display: flex;
+}
+.left-l{
+    display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        width: 50%;
+        font-size:45px;
+        font-family: sans-serif;
+        margin-left: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+
+}
+.right{
+    height: 500px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.ig{
+    
+}
+.rg{
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+}
+    
+</style>
+
+<header>
+    
+    <div class="nav">
+        <p>BLOCK<span id="one">STATE</span></p>
+    
+        <div class="container-navbar">
+            <ul>
+                <li>DEVELOPERS <a href=""> 
+                    <span style="color: rgb(255, 255, 255);"><i class="fa-solid fa-caret-down fa-l"></i></a> </li>
+                    </span>
+                <li>NETWORKS <a href=""> <span style="color: rgb(255, 255, 255);"><i class="fa-solid fa-caret-down fa-l"></i></a></li>
+                </span></li>
+                <li>VALIDATORS <a href=""> <span style="color: rgb(255, 255, 255);"><i class="fa-solid fa-caret-down fa-l"></i></a></li>
+                </span></li>
+                <li>COMMUNITY <a href=""> <span style="color: rgb(255, 255, 255);"><i class="fa-solid fa-caret-down fa-l"></i></a></li>
+                </span></li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <main class="main-body">
+        <div>
+        <p class="left"> 
+FIRST REAL ESTATE COIN FOR SAFE, SECURE TRANSACTIONS.</p>
+        <button class="button">START NOW</button>
+        <button class="button">READ DOCUMENTATION</button>
+        </div>
+        <div>
+        <img src="tkn.png" alt="adsd" class="right">
+        </div>
+    
+    </main>
+    <div>
+        <div>
+            <table>
+                <tr>
+                    <TH>BLOCKCHAIN</TH>
+                    <th> No. of transactions</th>
+
+                </tr>
+                  <tD>TRANSACTIONS PER SECOND</tD>
+                  <tD>298848</tD>
+                </tr>
+                <tr>
+                  <td>TOTAL TRANSACTIONS</td>
+                  <td>24I23434434</td>
+                </tr>
+                <tr>
+                  <td>VALIDATOR NODES</td>
+                  <td>32424</td>
+                </tr>
+              </table>
+        </div>
+    </div>
+    <div class="ig">
+        <img src="blockchain-in-real-estate-main-1600.jpg" alt="adsd" class="rg">
+    </div>
+        
+        <div class="divlex">
+            <div><p class="left-l"> SCALED FOR WORLDWIDE ADOPTION, AND IN THE EXPANSION STATE AROUND THE GLOBE.</p></div>
+            <div id="im">
+            <img src="HM.png" alt="adsd" class="right">
+        </div>
+    
+
+
+            
+            
+        </div>
+        <br>
+        <br>
+    
+</header>
+
+<footer>
+    <div class="card text-center">
+        <div class="card-header text-bg-light">
+          CONTACT US
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-bg-light">HOUSES | BUILDINGS | CONSTRUCTION</h5>
+          <p class="card-text text-bg-light"> All rights reserved by AfnanAmir.co </p>
+          <a href="#" class="btn btn-primary">EMAIL US</a>
+        </div>
+        
+      </div>
+</footer>
+
+</body>
+
+</html>
